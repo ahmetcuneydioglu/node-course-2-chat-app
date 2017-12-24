@@ -4,10 +4,6 @@
     socket.on('connect',function(){
       console.log('connected to server');
 
-      socket.emit('createMessage',{
-        from:'eymooo@gmail.com',
-        text:'selam ben can'
-      });
     });
 
     socket.on('disconnect',function(){
